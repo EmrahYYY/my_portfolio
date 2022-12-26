@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.05eff92a.css",
+    "main.js": "/my_portfolio/static/js/main.6590321e.js",
+    "static/media/BlogCentralMain.png": "/my_portfolio/static/media/BlogCentralMain.d1f8aca095f92f699f04.png",
+    "static/media/my_portfolio.png": "/my_portfolio/static/media/my_portfolio.9dec947f481cac15886f.png",
+    "static/media/SalaryDataforBelgium.png": "/my_portfolio/static/media/SalaryDataforBelgium.7b6f91ed178f88f3e9d1.png",
+    "static/media/pp.png": "/my_portfolio/static/media/pp.ae8fddb1a1c4614dac76.png",
+    "static/media/TeslaClone.png": "/my_portfolio/static/media/TeslaClone.822f6be5c3e2aca54693.png",
+    "static/media/MyIceCreamSalon.png": "/my_portfolio/static/media/MyIceCreamSalon.140f03fca93668a57217.png",
+    "static/media/emrah_yavuz_cv.png": "/my_portfolio/static/media/emrah_yavuz_cv.8db0b5f311f4150fe461.png",
+    "static/media/developer.jpeg": "/my_portfolio/static/media/developer.af43f2876c7274b04055.jpeg",
+    "static/media/address.png": "/my_portfolio/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/my_portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/phone.png": "/my_portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
+    "static/media/linkedin.png": "/my_portfolio/static/media/linkedin.712c4ce3d6be06644d11.png",
+    "static/media/download.webp": "/my_portfolio/static/media/download.856c0cb34759a667650a.webp",
+    "index.html": "/my_portfolio/index.html",
+    "main.05eff92a.css.map": "/my_portfolio/static/css/main.05eff92a.css.map",
+    "main.6590321e.js.map": "/my_portfolio/static/js/main.6590321e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05eff92a.css",
+    "static/js/main.6590321e.js"
+  ]
+}
