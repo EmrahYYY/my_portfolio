@@ -12,7 +12,7 @@ function App() {
       <About />
       <ProjectList />
       <Contact />
-      {/* npm run deploy */}
+     
     </div>
   );
 }

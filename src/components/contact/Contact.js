@@ -8,8 +8,6 @@ import Linkedin from "../../img/linkedin.png";
 import download from "../../img/download.webp";
 import emailjs from "@emailjs/browser";
 
-
-
 const Contact = () => {
   const formRef = useRef();
 
@@ -55,10 +53,9 @@ const Contact = () => {
               emrahyavuz3225@gmail.com
             </div>
             <div className="contact-info-item">
-            <a href="https://www.google.com/maps/place/Antwerp,+2000+Anvers/@51.2195463,4.3934155,15z/data=!3m1!4b1!4m5!3m4!1s0x47c3f5e038389465:0x1125d409660336fc!8m2!3d51.2195472!4d4.4021703">
+              <a href="https://www.google.com/maps/place/Antwerp,+2000+Anvers/@51.2195463,4.3934155,15z/data=!3m1!4b1!4m5!3m4!1s0x47c3f5e038389465:0x1125d409660336fc!8m2!3d51.2195472!4d4.4021703">
                 <img src={Address} alt="" className="contact-icon" />
                 Antwerpen/2000
-
               </a>
             </div>
 
@@ -68,7 +65,7 @@ const Contact = () => {
                 Linkedin
               </a>
             </div>
-            <div className="contact-info-item">
+            {/*      <div className="contact-info-item">
             <a href="../../pp.jpg" download>
                 <img
                   src={download}
@@ -80,6 +77,8 @@ const Contact = () => {
                 Download CV
               </a>
             </div>
+            
+            */}
           </div>
         </div>
         <div className="contact-right">
