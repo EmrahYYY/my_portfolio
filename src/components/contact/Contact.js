@@ -69,7 +69,7 @@ const Contact = () => {
               </a>
             </div>
             <div className="contact-info-item">
-            <a href="../../cv.pdf" download>
+            <a href="../../pp.jpg" download>
                 <img
                   src={download}
                   id="cv"

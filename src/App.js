@@ -5,15 +5,14 @@ import ProjectList from "./components/projectList/ProjectList";
 import Contact from "./components/contact/Contact";
 import Navbar from "./components/navbar/Navbar";
 
-
 function App() {
   return (
     <div>
-    
       <Intro />
       <About />
       <ProjectList />
-      <Contact/>
+      <Contact />
+      {/* npm run deploy */}
     </div>
   );
 }
