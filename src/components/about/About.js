@@ -18,7 +18,7 @@ function About() {
 
         <p className="about-sub">
           {" "}
-          &nbsp;&nbsp;&nbsp; I was born and raised in Turkey in 1990. I have a
+          &nbsp;&nbsp;&nbsp; I was born in Turkey in 1990 and raised. I have a
           university background, accounting and International relations. With my
           experience in government services, I worked at The Turkish Patent and
           Trademark Office as a computer operator for 4 years. When I came to
