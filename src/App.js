@@ -8,11 +8,12 @@ import Navbar from "./components/navbar/Navbar";
 function App() {
   return (
     <div>
+      <Navbar />
       <Intro />
       <About />
       <ProjectList />
       <Contact />
-     
+      {/* npm run deploy */}
     </div>
   );
 }
