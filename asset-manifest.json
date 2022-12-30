@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.a56c82fe.css",
-    "main.js": "/my_portfolio/static/js/main.34b97684.js",
+    "main.css": "/my_portfolio/static/css/main.a08ac950.css",
+    "main.js": "/my_portfolio/static/js/main.7e7212c9.js",
     "static/media/BlogCentralMain.png": "/my_portfolio/static/media/BlogCentralMain.d1f8aca095f92f699f04.png",
     "static/media/my_portfolio.png": "/my_portfolio/static/media/my_portfolio.9dec947f481cac15886f.png",
     "static/media/SalaryDataforBelgium.png": "/my_portfolio/static/media/SalaryDataforBelgium.7b6f91ed178f88f3e9d1.png",
@@ -16,11 +16,11 @@
     "static/media/linkedin.png": "/my_portfolio/static/media/linkedin.712c4ce3d6be06644d11.png",
     "static/media/download.webp": "/my_portfolio/static/media/download.856c0cb34759a667650a.webp",
     "index.html": "/my_portfolio/index.html",
-    "main.a56c82fe.css.map": "/my_portfolio/static/css/main.a56c82fe.css.map",
-    "main.34b97684.js.map": "/my_portfolio/static/js/main.34b97684.js.map"
+    "main.a08ac950.css.map": "/my_portfolio/static/css/main.a08ac950.css.map",
+    "main.7e7212c9.js.map": "/my_portfolio/static/js/main.7e7212c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a56c82fe.css",
-    "static/js/main.34b97684.js"
+    "static/css/main.a08ac950.css",
+    "static/js/main.7e7212c9.js"
   ]
 }
