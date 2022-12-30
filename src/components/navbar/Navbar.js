@@ -1,8 +1,16 @@
 import "./navbar.css";
 
 import { Link } from "react-scroll";
+import { Component } from "react";
 
-function Navbar() {
+class Navbar extends Component {
+
+state={clicked:false}
+
+handleClick=()=>{ this.setState({clicked:!this.state.clicked});}
+
+
+render(){
   return (
     <nav>
       <a href="index.html">
@@ -28,9 +36,9 @@ function Navbar() {
         </svg>
       </a>
 
-      <div >
+      <div>
         {" "}
-        <ul  id="navbar">
+        <ul id="navbar"v className={this.state.clicked?"#navbar active":"#navbar"}>
           <li>
             <Link to="intro" smooth={true} duration={1000}>
               Intro
@@ -53,8 +61,13 @@ function Navbar() {
           </li>
         </ul>
       </div>
+      <div id="mobile" onClick={this.handleClick}>
+        {" "}
+        <i id="bar" className={this.state.clicked?'fas fa-times':'fas fa-bars'}> </i>
+       
+      </div>
     </nav>
-  );
+  ); }
 }
 
 export default Navbar;
