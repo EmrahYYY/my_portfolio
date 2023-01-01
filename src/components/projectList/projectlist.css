@@ -21,3 +21,13 @@
 
 
 .projectlist-header{font-weight: 400;}
+
+@media screen and ( max-width:480px) {
+  .projectlist {
+   padding: 10px;
+  }
+  
+
+
+    
+  }

@@ -32,3 +32,26 @@
   z-index: 2;
 }
 
+
+@media screen and ( max-width:480px) {
+  .project {
+    width: 40%;
+  height: 23vh;
+  }
+  
+  .project-name {
+    background-color: white;
+    position: sticky;
+text-align:center;
+
+
+
+    padding: 5px;
+  
+    font-weight: 300;
+    height: 8vh;
+    z-index: 2;
+  }
+
+    
+  }

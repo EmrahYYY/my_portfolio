@@ -47,3 +47,40 @@
 
   margin-right: 53px;
 }
+
+
+@media screen and ( max-width:480px) {
+  .about {
+
+    flex-direction: column;
+    
+    align-items: center;
+
+  
+  }
+
+  .about-left {
+   width: 100%;
+  }
+
+  .about-card {
+   
+visibility: hidden 
+
+;    height: 0vh;
+   
+  
+   
+  }
+  
+
+  .about-right {
+  padding: 20px;
+  }
+
+  .about-sub{ margin: 20px 0px;
+
+    margin-right: 53px;
+  }
+    
+  }
