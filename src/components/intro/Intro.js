@@ -4,18 +4,18 @@ import "./intro.css";
 
 import MyFoto from "../../img/pp.png";
 
+import translate from "../../i18nProvider/translate";
+
 function Intro() {
   return (
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-introduction"> Hello, My name is </h2>
+          <h2 className="i-introduction"> {translate('introduction')} </h2>
           <h1 className="i-name"> Emrah Yavuz</h1>
       
           <div className="i-description">
-          I am a J.R Java Developer, have completed a year of intensive Java
-        training, passed the Oracle Certified Associate (OCA) Java SE 8. I am
-        currently learning Javascript, React.
+          {translate('description')}
           </div>
 
           <div className="i-title">

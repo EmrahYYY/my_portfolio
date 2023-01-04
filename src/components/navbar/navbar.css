@@ -40,18 +40,23 @@ nav {
   background-color: white;
 }
 
-@media screen and (max-width: 480px) {
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #303b60;
-  padding: 20px 80px;
-
-
-  position: relative;
+.navbar-language {
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 50%;
+  padding: 0px;
 }
+
+@media screen and (max-width: 480px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #303b60;
+    padding: 20px 80px;
+
+    position: relative;
+  }
 
   #navbar {
     display: flex;
@@ -90,4 +95,41 @@ nav {
     font-size: 25px;
     cursor: pointer;
   }
+}
+
+#FormControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #303b60;
+
+  padding: 0 200px;
+
+
+  margin-right: 450px;
+
+  position: relative;
+
+  flex-direction: row;
+
+
+
+}
+
+#FormControlLabel {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #fff;
+
+ 
+
+  
+
+}
+
+#FormControlLabel:hover {
+  color: black;
+ 
+
 }

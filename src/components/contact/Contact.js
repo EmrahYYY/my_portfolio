@@ -5,8 +5,11 @@ import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import Linkedin from "../../img/linkedin.png";
-import download from "../../img/download.webp";
 import emailjs from "@emailjs/browser";
+
+
+import translate from "../../i18nProvider/translate";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -55,7 +58,7 @@ const Contact = () => {
             <div className="contact-info-item">
               <a href="https://www.google.com/maps/place/Antwerp,+2000+Anvers/@51.2195463,4.3934155,15z/data=!3m1!4b1!4m5!3m4!1s0x47c3f5e038389465:0x1125d409660336fc!8m2!3d51.2195472!4d4.4021703">
                 <img src={Address} alt="" className="contact-icon" />
-                Antwerpen/2000
+                {translate('city')}/2000
               </a>
             </div>
 

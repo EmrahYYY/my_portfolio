@@ -6,10 +6,13 @@ import Project from "../project/Project";
 
 import ProjectsData from "../../ProjectsData";
 
+import translate from "../../i18nProvider/translate";
+
+
 function projectlist() {
   return (
     <div className="projectlist">
-      <h1 className="projectlist-header"> My Projects</h1>
+      <h1 className="projectlist-header"> {translate('project')}</h1>
 
       <div className="projectlist-list">
         {ProjectsData.map((i) => (
