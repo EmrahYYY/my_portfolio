@@ -95,6 +95,26 @@ nav {
     font-size: 25px;
     cursor: pointer;
   }
+
+#FormControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #303b60;
+
+  padding: 0 20px;
+
+
+  margin-left: -300px;
+
+  position: relative;
+
+  flex-direction: row;
+
+
+
+}
+
 }
 
 #FormControl {
