@@ -26,6 +26,7 @@ class Navbar extends Component {
 
 
 
+
   render() {
     return (
       <nav>
@@ -90,6 +91,7 @@ class Navbar extends Component {
             </li>
           </ul>
         </div>
+        
         <div id="mobile" onClick={this.handleClick}>
           {" "}
           <i

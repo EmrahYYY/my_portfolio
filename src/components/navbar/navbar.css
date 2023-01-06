@@ -48,8 +48,6 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
-
-  
   nav {
     display: flex;
     align-items: center;
@@ -61,7 +59,7 @@ nav {
   }
 
   #navbar {
-    display: flex;
+    display: none;
 
     flex-direction: column;
     align-items: center;
@@ -78,10 +76,31 @@ nav {
     padding: 40px 0 0 10px;
 
     transition: 0.4s ease-in-out;
+    
+
   }
 
   #navbar.active {
-    right: 0px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    position: absolute;
+
+    top: 90px;
+    right: -0px;
+    width: 250px;
+    height: 50vh;
+    background-color: #303b60;
+
+    padding: 40px 0 0 10px;
+
+  
+
+    
+
   }
 
   #navbar li {
