@@ -48,6 +48,8 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
+
+  
   nav {
     display: flex;
     align-items: center;
@@ -65,12 +67,12 @@ nav {
     align-items: center;
     justify-content: flex-start;
 
-    position: fixed;
+    position: absolute;
 
     top: 90px;
     right: -300px;
     width: 300px;
-    height: 100vh;
+    height: 50vh;
     background-color: #303b60;
 
     padding: 40px 0 0 10px;

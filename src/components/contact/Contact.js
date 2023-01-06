@@ -95,8 +95,13 @@ const Contact = () => {
             <button>Submit</button>
             {done && "your email successfully sent"}
             {error && "error occurred"}
+            <div className="contact-bottom" ></div>
+
           </form>
+
+
         </div>
+
       </div>
     </div>
   );
