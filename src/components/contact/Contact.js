@@ -6,6 +6,9 @@ import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import Linkedin from "../../img/linkedin.png";
 import emailjs from "@emailjs/browser";
+import download from "../../img/download.webp";
+
+import downloadpdf from "./cv.pdf"
 
 
 import translate from "../../i18nProvider/translate";
@@ -68,8 +71,8 @@ const Contact = () => {
                 Linkedin
               </a>
             </div>
-            {/*      <div className="contact-info-item">
-            <a href="../../pp.jpg" download>
+                  <div className="contact-info-item">
+            <a href={downloadpdf} download>
                 <img
                   src={download}
                   id="cv"
@@ -81,7 +84,7 @@ const Contact = () => {
               </a>
             </div>
             
-            */}
+            
           </div>
         </div>
         <div className="contact-right">
